@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Voz Delas</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0a0a;--ink:#f2eef6;--mu:#a79fb3;--line:#2a2630;--pu:#5b1a9a;--lil:#c9a6f5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,"Times New Roman",serif}
+a{color:var(--lil)}
+.w{max-width:960px;margin:0 auto;padding:0 22px}
+.sans,nav,button,.tel small,.lab{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+header .w{display:flex;align-items:center;gap:20px;height:56px}
+.logo{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;letter-spacing:.5px}
+nav{margin-left:auto;display:flex;gap:18px;font-size:14px}
+nav a{color:var(--mu);text-decoration:none}
+nav a:hover{color:var(--ink)}
+.exit{font-size:13px;background:none;color:var(--ink);border:1px solid var(--mu);padding:5px 12px;cursor:pointer;border-radius:2px}
+.exit:hover{background:var(--ink);color:#000}
+.hero{padding:72px 0 56px}
+h1{font-size:clamp(36px,7vw,68px);line-height:1.05;margin:0 0 22px;font-weight:400;max-width:800px}
+h1 i{color:var(--lil)}
+.hero p{max-width:560px;color:var(--mu);margin:0 0 26px}
+.btn{display:inline-block;font:600 15px system-ui,sans-serif;padding:12px 20px;background:var(--lil);color:#12001f;text-decoration:none;border-radius:2px}
+.btn:hover{background:#fff}
+.btn.o{background:none;color:var(--ink);border:1px solid var(--mu)}
+.btn.o:hover{background:var(--ink);color:#000}
+.urg{background:var(--pu);padding:22px 0}
+.urg .w{display:flex;gap:20px;align-items:baseline;flex-wrap:wrap}
+.urg b{font-size:44px;line-height:1}
+.urg span{max-width:520px}
+section{padding:60px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(26px,4vw,38px);font-weight:400;margin:0 0 10px}
+.lead{color:var(--mu);max-width:600px;margin:0 0 30px}
+.tel{display:grid;grid-template-columns:130px 1fr auto;gap:8px 22px;align-items:center;padding:18px 0;border-top:1px solid var(--line)}
+.tel:last-child{border-bottom:1px solid var(--line)}
+.tel strong{font-size:34px;font-weight:400;color:var(--lil)}
+.tel strong.sm{font-size:20px}
+.tel h3{margin:0;font-size:18px;font-weight:700}
+.tel p{margin:2px 0 0;color:var(--mu);font-size:15px}
+.tel .btn{padding:9px 16px;font-size:14px}
+details{border-top:1px solid var(--line);padding:4px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-size:21px;padding:14px 0;list-style:none;display:flex;justify-content:space-between}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--lil)}
+details[open] summary::after{content:"–"}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 36px;padding:0 0 22px}
+.lab{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--lil);margin:10px 0 6px}
+.cols ul{margin:0;padding-left:18px;color:var(--mu)}
+.cols li{margin-bottom:5px}
+.srv{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.srv div{padding:16px 0;border-top:1px solid var(--line)}
+.srv h3{margin:0 0 4px;font-size:18px}
+.srv p{margin:0 0 6px;color:var(--mu);font-size:15px}
+.srv a{font:600 14px system-ui,sans-serif}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.two h3{font-size:22px;font-weight:400;margin:0 0 10px}
+ol{padding-left:20px;margin:0;color:var(--mu)}
+ol li{margin-bottom:10px}
+ol b{color:var(--ink)}
+.note{margin-top:18px;padding:14px 16px;background:var(--pu);font-size:15px}
+footer{background:#000;border-top:1px solid var(--line);padding:30px 0;color:var(--mu);font-size:14px}
+footer p{margin:0 0 8px;max-width:640px}
+@media(max-width:700px){.tel{grid-template-columns:1fr}.srv,.two{grid-template-columns:1fr}nav{display:none}.exit{margin-left:auto}}
+</style>
+</head>
+<body>
+<header><div class="w">
+<a class="logo" href="#">Voz Delas</a>
+<nav><a href="#telefones">Telefones</a><a href="#situacoes">Situações</a><a href="#servicos">Onde ir</a><a href="#ajudar">Ajudar alguém</a></nav>
+</div></header>
+
+<div class="hero"><div class="w">
+<h1>Se você sofre violência em casa, <i>existe ajuda e ela é gratuita.</i></h1>
+<p>Aqui você encontra os telefones de denúncia, os lugares que atendem e o que fazer em cada situação. Também serve para quem conhece alguém que está passando por isso.</p>
+<a class="btn" href="tel:180">Ligar para o 180</a> <a class="btn o" href="#situacoes">Ver minha situação</a>
+</div></div>
+<div class="urg"><div class="w"><b>190</b><span>Se há perigo agora, ligue para a Polícia Militar. Se não dá para falar, mande mensagem para o 180 pelo WhatsApp.</span></div></div>
+
+<section id="telefones"><div class="w">
+<h2>Telefones</h2>
+<p class="lead">Todas as ligações são gratuitas. No 180 você não precisa dar seu nome.</p>
+<div class="tel"><strong>180</strong><div><h3>Central de Atendimento à Mulher</h3><p>Funciona 24 horas. Orienta, registra a denúncia e encaminha. Atende em Libras.</p></div><a class="btn" href="tel:180">Ligar</a></div>
+<div class="tel"><strong class="sm">WhatsApp</strong><div><h3>(61) 9610-0180</h3><p>O mesmo serviço do 180, por mensagem. Bom para quando não é seguro falar.</p></div><a class="btn" target="_blank" rel="noopener" href="https://wa.me/556196100180">Conversar</a></div>
+<div class="tel"><strong>190</strong><div><h3>Polícia Militar</h3><p>Agressão em andamento, ameaça ou perseguição.</p></div><a class="btn" href="tel:190">Ligar</a></div>
+<div class="tel"><strong>100</strong><div><h3>Disque Direitos Humanos</h3><p>Violência contra crianças, idosos e pessoas com deficiência.</p></div><a class="btn" href="tel:100">Ligar</a></div>
+<div class="tel"><strong>192</strong><div><h3>SAMU</h3><p>Quando há ferimentos e é preciso atendimento médico urgente.</p></div><a class="btn" href="tel:192">Ligar</a></div>
+</div></section>
+
+<section id="situacoes"><div class="w">
+<h2>O que fazer em cada situação</h2>
+<p class="lead">A Lei Maria da Penha reconhece cinco formas de violência doméstica. Abra a que se parece com o seu caso.</p>
+<div id="lista"></div>
+</div></section>
+
+<section id="servicos"><div class="w">
+<h2>Onde ser atendida</h2>
+<p class="lead">Os links abrem o mapa com os endereços mais próximos de você.</p>
+<div class="srv">
+<div><h3>Delegacia da Mulher (DEAM)</h3><p>Boletim de ocorrência e pedido de medida protetiva, com equipe preparada para esses casos.</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/Delegacia+da+Mulher+perto+de+mim">Ver no mapa →</a></div>
+<div><h3>Casa da Mulher Brasileira</h3><p>Polícia, justiça, assistência social e psicólogas no mesmo lugar.</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/Casa+da+Mulher+Brasileira+perto+de+mim">Ver no mapa →</a></div>
+<div><h3>Centro de Referência (CRAM ou CREAS)</h3><p>Acolhimento, acompanhamento psicológico e orientação jurídica e social.</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/Centro+de+Refer%C3%AAncia+de+Atendimento+%C3%A0+Mulher+perto+de+mim">Ver no mapa →</a></div>
+<div><h3>Defensoria Pública</h3><p>Advogado gratuito para quem não pode pagar, inclusive para pedir medida protetiva.</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/Defensoria+P%C3%BAblica+perto+de+mim">Ver no mapa →</a></div>
+<div><h3>Hospital ou posto de saúde</h3><p>Cuidado médico e psicológico. Em caso de violência sexual, procure o quanto antes.</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/Hospital+perto+de+mim">Ver no mapa →</a></div>
+<div><h3>Sinal Vermelho</h3><p>Um X vermelho na palma da mão, mostrado em farmácias e comércios participantes, é um pedido de ajuda sem palavras.</p></div>
+</div>
+</div></section>
+
+<section id="ajudar"><div class="w">
+<h2>Conhece alguém que sofre violência?</h2>
+<p class="lead">Você também pode ligar para o 180 para denunciar, sem se identificar.</p>
+<div class="two">
+<div><h3>Como apoiar</h3><ol>
+<li><b>Escute e acredite.</b> Evite perguntar por que ela não vai embora.</li>
+<li><b>Dê tempo.</b> Sair de uma relação violenta é difícil e pode ser perigoso.</li>
+<li><b>Ajude a se preparar.</b> Documentos, uma pessoa de confiança e um lugar seguro.</li>
+<li><b>Passe os telefones</b> e os endereços da sua cidade.</li>
+<li><b>Não enfrente o agressor.</b> Isso pode piorar a situação para ela.</li></ol></div>
+<div><h3>Como denunciar</h3><ol>
+<li><b>Agressão acontecendo agora:</b> ligue 190.</li>
+<li><b>Sem urgência:</b> ligue 180 ou escreva no WhatsApp.</li>
+<li><b>Anote o número de protocolo.</b> Com ele você acompanha o caso.</li>
+<li><b>Se houver criança, idoso ou pessoa com deficiência,</b> o 100 também recebe a denúncia.</li></ol>
+<div class="note">Se for perigoso falar abertamente, algumas centrais aceitam pedidos disfarçados, como “quero pedir uma pizza”.</div></div>
+</div>
+</div></section>
+
+<footer><div class="w">
+<p>Voz Delas é um canal de informação. Não substitui atendimento policial, jurídico, médico ou psicológico.</p>
+<p>Em caso de risco, ligue 190. Se o aparelho for compartilhado, limpe o histórico do navegador depois de usar este site.</p>
+</div></footer>
+
+<script>
+var T=[
+["Violência física","Uso de força que machuca o corpo.",["Empurrões, tapas, socos, estrangulamento","Lesões sem explicação","Objetos ou armas usados para ameaçar"],["Perigo imediato: 190","Ferida: SAMU 192 ou hospital; peça o registro das lesões","Delegacia da Mulher: boletim de ocorrência e medida protetiva","Tire fotos das lesões e guarde laudos"]],
+["Violência psicológica","Ataques que minam a autoestima e a liberdade.",["Humilhação, ameaças, chantagem emocional","Afastamento de amigos e família","Controle de celular, redes e roupas","Perseguição e vigilância"],["Ligue 180 para orientação","Procure um Centro de Referência para apoio psicológico","Guarde mensagens, prints e áudios","Também é crime e pode gerar medida protetiva"]],
+["Violência sexual","Qualquer ato sexual sem consentimento, inclusive no casamento ou namoro.",["Relação forçada ou sob ameaça","Impedir o uso de contraceptivo","Exigir atos que causam desconforto"],["Vá a um hospital o quanto antes, de preferência em até 72 horas","Se puder, guarde as roupas e evite se lavar antes","O atendimento de saúde não depende de boletim de ocorrência","Denuncie no 180 ou na Delegacia da Mulher"]],
+["Violência patrimonial","Controle ou destruição de bens, dinheiro e documentos.",["Reter ou destruir documentos e objetos","Impedir que a mulher trabalhe ou tenha renda","Tomar dinheiro ou vender bens sem autorização"],["Procure a Defensoria Pública","Registre ocorrência na Delegacia da Mulher","Faça cópias dos documentos e deixe com alguém de confiança","Ligue 180 para saber a rede da sua cidade"]],
+["Violência moral","Calúnia, difamação e injúria.",["Espalhar mentiras sobre a mulher","Xingamentos e acusações em público","Exposição na internet ou na família"],["Salve prints com data e link","Registre ocorrência na delegacia","A Defensoria Pública orienta sobre ações na justiça","Ligue 180 para orientação"]]
+];
+var L=document.getElementById("lista");
+T.forEach(function(t){
+var li=function(a){return a.map(function(x){return"<li>"+x+"</li>"}).join("")};
+var d=document.createElement("details");
+d.innerHTML="<summary>"+t[0]+"</summary><p style='color:var(--mu);margin:0 0 8px'>"+t[1]+"</p><div class='cols'><div><div class='lab'>Sinais</div><ul>"+li(t[2])+"</ul></div><div><div class='lab'>O que fazer</div><ul>"+li(t[3])+"</ul></div></div>";
+L.appendChild(d);
+});
+</script>
+</body>
+</html>
